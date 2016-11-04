@@ -12,5 +12,10 @@ body {
 }
 
 header {
-  
+  background: #d05c2e;
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
 }
