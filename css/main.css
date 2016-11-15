@@ -19,3 +19,14 @@ header h1 {
   color: #fff;
   text-align: center;
 }
+
+header .left {
+  float: left;
+  width: 40px;
+  display: 100%;
+}
+
+header .right {
+  float: right;
+  width: 40px;
+}
