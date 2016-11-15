@@ -19,15 +19,20 @@ header h1 {
   margin: 0;
   color: #fff;
   text-align: center;
+  font-size: 2rem;
+  padding: .5em 0 0;
 }
 
 header .left {
   float: left;
   width: 40px;
-  display: 100%;
+  padding: .5em 0 0;
 }
 
 header .right {
   float: right;
   width: 40px;
+  padding: .5em 0 0;
 }
+
+ 
