@@ -23,16 +23,32 @@ header h1 {
   padding: .5em 0 0;
 }
 
+header {
+    padding: .5em 0 0;
+}
+
 header .left {
   float: left;
   width: 40px;
-  padding: .5em 0 0;
 }
 
 header .right {
   float: right;
   width: 40px;
-  padding: .5em 0 0;
 }
 
- 
+nav {
+ margin: .4rem 0;
+ padding: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+nav li {
+  float: left;
+  width: 30%;
+}
