@@ -13,6 +13,7 @@ body {
 
 header {
   background: #d05c2e;
+  padding: .5em 0 0;
 }
 
 header h1 {
@@ -21,10 +22,6 @@ header h1 {
   text-align: center;
   font-size: 2rem;
   padding: .5em 0 0;
-}
-
-header {
-    padding: .5em 0 0;
 }
 
 header .left {
@@ -40,15 +37,18 @@ header .right {
 nav {
  margin: .4rem 0;
  padding: 0;
+ overflow: hidden;
+ background-color: #d05c2e;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
-  list-style: none
+  list-style: none;
+  text-align: center;
 }
 
 nav li {
   float: left;
-  width: 30%;
+  width: 33%;
 }
