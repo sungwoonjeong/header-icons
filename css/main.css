@@ -62,3 +62,7 @@ nav a {
  padding: .4rem 0;
  color: #fff;
 }
+
+nav a:hover {
+  background-color: #a63f38;
+}
