@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #fff;
   font-family: Merriweather, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -22,7 +23,8 @@ header h1 {
   color: #fff;
   text-align: center;
   font-size: 2rem;
-  padding: .5em 0 0;
+  padding: 0;
+  font-weight: bold;
 }
 
 header .left {
@@ -36,10 +38,10 @@ header .right {
 }
 
 nav {
- margin: .4rem 0;
- padding: 0;
- overflow: hidden;
- background-color: #d05c2e;
+  margin: .4rem 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d05c2e;
 }
 
 nav ul {
@@ -52,16 +54,16 @@ nav ul {
 nav li {
   float: left;
   width: 33%;
+    border: 1px #a63f38 solid;
 }
 
 nav a {
   display: block;
- font-size: 1.125rem;
- background-color: #d05c2e;
- text-decoration: none;
- margin: 0 0 .7rem;
- padding: .4rem 0;
- color: #fff;
+  font-size: 1.125rem;
+  background-color: #d05c2e;
+  text-decoration: none;
+  padding: .4rem 0;
+  color: #fff;
 }
 
 nav a:hover {
