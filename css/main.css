@@ -52,3 +52,13 @@ nav li {
   float: left;
   width: 33%;
 }
+
+nav a {
+  display: block;
+ font-size: 1.125rem;
+ background-color: #d05c2e;
+ text-decoration: none;
+ margin: 0 0 .7rem;
+ padding: .4rem 0;
+ color: #fff;
+}
